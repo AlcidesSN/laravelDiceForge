@@ -8,10 +8,10 @@
 </head>
 <body>
     <header>
-        <h1>Meu Site Incrível</h1>
+        <img src="/css/img/logo-unifil.png" alt="">
         <nav>
             <ul>
-                <li><a href="#">Início</a></li>
+                <li><a href="/">Início</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Serviços</a></li>
                 <li><a href="#">Contato</a></li>
