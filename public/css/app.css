@@ -18,6 +18,7 @@ header {
     justify-content: space-between;
 }
 
+
 nav ul {
     list-style: none;
 }
@@ -31,7 +32,10 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
 }
-
+.logo{
+    height: 50%;
+    width: 50%;
+}
 /* Estilos da seção hero */
 .hero {
     background-image: url('background.jpg');

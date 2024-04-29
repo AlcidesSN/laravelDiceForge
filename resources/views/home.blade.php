@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página Inicial</title>
+    <title>Home</title>
     <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
     <header>
-        <img src="/img/logo-unifil.png" alt="logo-unifil">
+        <img class="logo" src="/img/logo-unifil.png" alt="logo-unifil">
         <nav>
             <ul>
                 <li><a href="/">Início</a></li>
