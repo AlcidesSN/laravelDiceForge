@@ -8,13 +8,12 @@
 </head>
 <body>
     <header>
-        <img src="/img/logo-unifil.png" alt="">
+        <img src="/img/logo-unifil.png" alt="logo-unifil">
         <nav>
             <ul>
                 <li><a href="/">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="/projeto">Projeto</a></li>
+                <li><a href="/sobre">Sobre</a></li>
             </ul>
         </nav>
     </header>
