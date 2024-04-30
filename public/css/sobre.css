@@ -39,10 +39,77 @@
     bottom: 0;
     width: 100%;
   }
+
+/* styles.css */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.logo{
+    height: 15%;
+    width: 15%;
+}
+/* Estilos da seção hero */
+.hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
 .cta-button {
-    background-color: darkgray;
+    background-color: #ff6600;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
+}
+
+/* Estilos da seção features */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
