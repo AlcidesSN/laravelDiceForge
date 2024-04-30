@@ -1,0 +1,48 @@
+
+.sobre{
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    min-width: 45%;
+    margin: auto;
+    border: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.sobre p{
+    font-size: large;
+}
+.box{
+    padding: 10px;
+    width: 20%;
+    height: 20%;
+    justify-self: autod
+    ;
+}
+.img {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+  }
+
+.vito{
+    position: absolute;
+    right: 0;
+    bottom: 1%;
+    top: 1px;
+    margin-top: -30%;
+}
+  .img img {
+    bottom: 0;
+    width: 100%;
+  }
+.cta-button {
+    background-color: darkgray;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}

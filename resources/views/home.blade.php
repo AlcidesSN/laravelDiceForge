@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/home.css">
 </head>
 <body>
     <header>
-        <img class="logo" src="/img/logo-unifil.png" alt="logo-unifil">
+        <a href="/"><img class="logo" src="/img/logo-unifil.png" alt="logo-unifil"></a>
         <nav>
             <ul>
                 <li><a href="/">Início</a></li>
@@ -40,7 +40,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Meu Site Incrível</p>
+        <p>&copy; 2024 Dice Forge</p>
     </footer>
 </body>
 </html>
