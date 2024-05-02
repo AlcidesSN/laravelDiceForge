@@ -1,5 +1,5 @@
 *{
-    font-size: x-large;
+    font-size: large;
   }
   .titulo{
     display: flex;
@@ -32,7 +32,7 @@
   }
 
   .apresentacao{
-    height: 20%;
+    height: 45%;
   }
 
   .nome{
@@ -70,9 +70,7 @@
       bottom: 0;
       width: 100%;
     }
-  .bnt{
-    margin-top: 55%;
-  }
+
   .nome{
     font-size: x-large;
     padding-bottom: 20%;
