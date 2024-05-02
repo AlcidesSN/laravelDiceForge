@@ -109,14 +109,14 @@
     text-decoration: none;
     color: #fff;
   }
-  .logo{
+.logo{
     height: 50%;
     width: 50%;
-  }
-  .logo img{
+}
+.logo img{
     height: 30%;
     width: 30%  ;
-  }
+}
   /* Estilos da seção hero */
   .hero {
     background-image: url('background.jpg');
