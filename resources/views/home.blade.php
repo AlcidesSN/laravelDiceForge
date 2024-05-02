@@ -17,28 +17,19 @@
             </ul>
         </nav>
     </header>
+    <div class="titulo">
+        <h1>Projeto de Extensão UniFil</h1>
+        <h2>DiceFoge</h2>
+    </div>
 
-    <section class="hero">
-        <h2>Bem-vindo ao nosso site!</h2>
-        <p>Explore nossos serviços e descubra como podemos ajudar você.</p>
-        <a href="#" class="cta-button">Saiba Mais</a>
-    </section>
-
-    <section class="features">
-        <div class="feature">
-            <h3>Design Responsivo</h3>
-            <p>Nosso site se adapta a todos os dispositivos.</p>
-        </div>
-        <div class="feature">
-            <h3>Conteúdo de Qualidade</h3>
-            <p>Informações relevantes e atualizadas.</p>
-        </div>
-        <div class="feature">
-            <h3>Equipe Experiente</h3>
-            <p>Conheça nossa equipe dedicada.</p>
-        </div>
-    </section>
-
+    <div class="block">
+        <h3>O que é extensão curricular na universidade?</h3>
+        <p>A extensão da educação superior no Brasil é a atividade que se integra à matriz curricular e à organização da pesquisa. Ainda conforme o conselho citado, a extensão constitui-se em processo interdisciplinar, político educacional, cultural, científico e tecnológico que promove a interação transformadora entre as instituições de ensino superior e os outros setores da sociedade, por meio da produção e da aplicação do conhecimento, em articulação permanente com o ensino e a pesquisa.</p>
+    </div>
+    <div class="block">
+        <h3>Oque é o DiceForge</h3>
+        <p>DiceForge é um aplicativo para construção de fichas de RPG de mesa, de um modo para ser utilizado no jogo D&D feito pela empresa Wizards of the Coast. O aplicativo será um lugar para se guardar as fichas de forma mais organizada e digital facilitando a verificação de recursos que um personagem pode ter.</p>
+    </div>
     <footer>
         <p>&copy; 2024 Dice Forge</p>
     </footer>

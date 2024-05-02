@@ -34,6 +34,22 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
 }
+
+*{
+    font-size: large;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 200%;
+    padding-bottom: 5px;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .logo{
     height: 50%;
     width: 50%;
@@ -42,32 +58,14 @@ nav ul li a {
     height: 30%;
     width: 30%  ;
 }
-/* Estilos da seção hero */
-.hero {
-    background-image: url('background.jpg');
-    background-size: cover;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
-}
 
+/* Estilos da seção hero */
 .cta-button {
     background-color: #ff6600;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-}
-
-/* Estilos da seção features */
-.features {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 0;
-}
-
-.feature {
-    text-align: center;
 }
 
 /* Estilos do rodapé */
