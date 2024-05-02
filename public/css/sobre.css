@@ -28,7 +28,6 @@
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    padding: 30px;
   }
 
   .apresentacao{
@@ -74,6 +73,7 @@
   .nome{
     font-size: x-large;
     padding-bottom: 20%;
+    height: 20%;
   }
   /* styles.css */
 

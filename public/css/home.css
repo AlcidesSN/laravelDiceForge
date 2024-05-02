@@ -44,6 +44,7 @@ nav ul li a {
 .titulo h1,h2{
     font-size: xx-large;
     font-weight: bold;
+    margin: 0;
 }
 .block{
     display: grid;
@@ -81,4 +82,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
