@@ -2,13 +2,14 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
     <link rel="stylesheet" href="/css/sobre.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
-        <a href="/"><img class="logo" src="/img/logo-unifil.png" alt="logo-unifil"></a>
+        <a href="/" class="logo"><img  src="/img/logo-unifil.png" alt="logo-unifil"></a>
         <nav>
             <ul>
                 <li><a href="/">Início</a></li>
@@ -17,10 +18,9 @@
             </ul>
         </nav>
     </header>
-    <h1 class="sobre">Sobre Nós</h1>
+    <h1 class="titulo">Sobre Nós</h1>
     <p class="sobre">O Projeto Dice Forge foi pensado no meio de 2023, por alguns estudantes do curso de Ciências da computação Alcides Sandoli Neto, Arthur Garcia Nonis e Héberton Santiago Gonçalves D.R, do qual saiu um protótipo então foi deixado como estava. Quando o projeto de extensão da UniFil começou os três se reuniram com mais dois alunos Giovanna Vitoriano e Victor Matos Tramontine Monteiro para dar continuidade ao projeto.</p>
-    <div class="sobre">
-        <p></p>
+    <div class="integrantes">
         <div class="box">
             <div class="img">
                 <img src="/img/alcides.jpg" alt="">
@@ -91,7 +91,7 @@
             <div class="apresentacao">
                 <p>AlAluno do segundo ano de ciência da computação unifil e Formando especializado em back-end e Formando do Colégio Nossa Senhora Das Neves.</p>
             </div>
-            <div >
+            <div class="bnt">
                 <a href="https://github.com/RYHBTG" class="cta-button">GitHub</a>
             </div>
 
