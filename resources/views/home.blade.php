@@ -27,7 +27,7 @@
         <p>A extensão da educação superior no Brasil é a atividade que se integra à matriz curricular e à organização da pesquisa. Ainda conforme o conselho citado, a extensão constitui-se em processo interdisciplinar, político educacional, cultural, científico e tecnológico que promove a interação transformadora entre as instituições de ensino superior e os outros setores da sociedade, por meio da produção e da aplicação do conhecimento, em articulação permanente com o ensino e a pesquisa.</p>
     </div>
     <div class="block">
-        <h3>Oque é o DiceForge</h3>
+        <h3>O que é o DiceForge?</h3>
         <p>DiceForge é um aplicativo para construção de fichas de RPG de mesa, de um modo para ser utilizado no jogo D&D feito pela empresa Wizards of the Coast. O aplicativo será um lugar para se guardar as fichas de forma mais organizada e digital facilitando a verificação de recursos que um personagem pode ter.</p>
     </div>
     <footer>
