@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <a href="/"><img class="logo" src="/img/logo-unifil.png" alt="logo-unifil"></a>
+        <a href="/" class="logo"><img  src="/img/logo-unifil.png" alt="logo-unifil"></a>
         <nav>
             <ul>
                 <li><a href="/">Início</a></li>
