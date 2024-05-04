@@ -31,6 +31,14 @@
         <h3>O que é o DiceForge?</h3>
         <p>DiceForge é um aplicativo para construção de fichas de RPG de mesa, de um modo para ser utilizado no jogo D&D feito pela empresa Wizards of the Coast. O aplicativo será um lugar para se guardar as fichas de forma mais organizada e digital facilitando a verificação de recursos que um personagem pode ter.</p>
     </div>
+    <div class="block">
+        <h3>De onde vem e para que?</h3>
+        <p>O projeto DiceFoge vem da necessidade de completar as Práticas de Extensão dos cursos de Ciências da Computação e Engenharia de Software na Universidade Filadélfia (UniFil), este blog/portfólio e um meio do qual iremos postar o progresso e andamento do projeto bem como as etapas que foram utilizadas para realizá-lo.</p>
+    </div>
+    <div class="block">
+        <h3>Tema e Público Alvo</h3>
+        <p>Com o tema de RPG de mesa ou Role Play Game é voltado para os públicos de entre 15 à 35 anos de idade, os jogos de RPG são bem vistos em algumas comunidades de teatro pois ajuda no desenvolvimento da criatividade e da improvisação.</p>
+    </div>
     <footer>
         <p>&copy; 2024 Dice Forge</p>
     </footer>
