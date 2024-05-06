@@ -1,156 +1,113 @@
-*{
 
+.titulo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 200%;
+  padding-bottom: 5px;
 }
-  .titulo{
+.sobre{
     display: flex;
+    width: 60%;
     flex-direction: row;
-    justify-content: center;
-    font-size: 200%;
-    padding-bottom: 5px;
-  }
-  .sobre{
-      display: flex;
-      width: 60%;
-      flex-direction: row;
-      min-width: 45%;
-      margin: auto;
-      border: 100%;
-      justify-content: center;
-      text-align: center;
-      padding-top: 20px;
-      padding-bottom: 20;
-  }
-  .integrantes{
-    display: flex;
-    height: 1000px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+    min-width: 45%;
+    margin: auto;
+    border: 100%;
     justify-content: center;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20;
+}
+.integrantes{
+  display: flex;
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.apresentacao{
+  height: 45%;
+}
+
+.nome{
+height: 35px;
+font-weight: bold;
+}
+
+.box{
+    padding: 10px;
+    margin: 10px;
+    width: 12%;
+    height: 60%;
+    justify-content: center;
+
+}
+.img {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    margin: auto;
   }
 
-  .apresentacao{
-    height: 45%;
+.vito{
+    position: absolute;
+    right: 0;
+    bottom: 1%;
+    top: 1px;
+    margin-top: -30%;
+}
+  .img img {
+    bottom: 0;
+    width: 100%;
   }
 
-  .nome{
-  height: 35px;
-  font-weight: bold;
-  }
+.nome{
+  font-size: x-large;
+  padding-bottom: 20%;
+  height: 20%;
+}
+/* styles.css */
 
-  .box{
-      padding: 10px;
-      margin: 10px;
-      width: 12%;
-      height: 60%;
-      justify-content: center;
-
-  }
-  .img {
-      background-color: #aaa;
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-      overflow: hidden;
-      position: relative;
-      justify-content: center;
-      margin: auto;
-    }
-
-  .vito{
-      position: absolute;
-      right: 0;
-      bottom: 1%;
-      top: 1px;
-      margin-top: -30%;
-  }
-    .img img {
-      bottom: 0;
-      width: 100%;
-    }
-
-  .nome{
-    font-size: x-large;
-    padding-bottom: 20%;
-    height: 20%;
-  }
-  /* styles.css */
-
-  /* Estilos gerais */
-  body {
-    font-family: 'JetBrains Mono';;
-    margin: 0;
-    padding: 0;
-  }
-
-  /* Estilos do cabeçalho */
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 15px;
-    padding-left: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-
-  nav ul {
-    list-style: none;
-  }
-
-  nav ul li {
-    display: inline;
-    margin-right: 20px;
-  }
-
-  nav ul li a {
-    text-decoration: none;
-    color: #fff;
-  }
 .logo{
-    height: 50%;
-    width: 50%;
+  height: 50%;
+  width: 50%;
 }
 .logo img{
-    height: 30%;
-    width: 30%  ;
+  height: 30%;
+  width: 30%  ;
 }
-  /* Estilos da seção hero */
-  .hero {
-    background-image: url('background.jpg');
-    background-size: cover;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
-  }
-
-  .cta-button {
-    background-color: #ff6600;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-  }
-
-  /* Estilos da seção features */
-  .features {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 0;
-  }
-
-  .feature {
-    text-align: center;
-  }
-
-  /* Estilos do rodapé */
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    position: relative;
-    width: 100%;
+/* Estilos da seção hero */
+.hero {
+  background-image: url('background.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
 }
+
+.cta-button {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Estilos da seção features */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.feature {
+  text-align: center;
+}
+

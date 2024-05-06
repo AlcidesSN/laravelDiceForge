@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/app.css">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
 </head>
 <body>
     <header>
-        <a href="/" class="logo"><img  src="/img/logo-unifil.png" alt="logo-unifil"></a>
+        <div class="unifillogo"><a href="/" class="logo"><img  src="/img/logo-unifil.png" alt="logo-unifil"></a></div>
         <nav>
             <ul>
                 <li><a href="/">Início</a></li>

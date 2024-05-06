@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
     <link rel="stylesheet" href="/css/projeto.css">
+    <link rel="stylesheet" href="/css/app.css">
     <title>Projeto</title>
 </head>
 <body>
     <body>
         <header>
-            <a href="/" class="logo"><img  src="/img/logo-unifil.png" alt="logo-unifil"></a>
-            <nav>
+        <div class="unifillogo"><a href="/" class="logo"><img  src="/img/logo-unifil.png" alt="logo-unifil"></a></div>            <nav>
                 <ul>
                     <li><a href="/">Início</a></li>
                     <li><a href="/projeto">Projeto</a></li>
