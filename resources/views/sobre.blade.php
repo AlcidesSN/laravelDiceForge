@@ -14,7 +14,7 @@
     <header>
     <div class="unifillogo"><a href="/" class="logo"><img  src="/img/logo-unifil.png" alt="logo-unifil"></a></div>        <nav>
             <ul>
-                <li><a href="/">Início</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="/projeto">Projeto</a></li>
                 <li><a href="/sobre">Sobre</a></li>
             </ul>
