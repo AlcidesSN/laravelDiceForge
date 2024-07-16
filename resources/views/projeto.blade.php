@@ -21,7 +21,7 @@
             </nav>
         </header>
         <div>
-            <h1>Em breve</h1>
+            <h1></h1>
         </div>
         <footer>
             <p>&copy; 2024 Dice Forge</p>
