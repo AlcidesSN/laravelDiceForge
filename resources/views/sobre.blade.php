@@ -34,7 +34,7 @@
                 <p>Aluno do Segundo ano de Ciências da Computação da UniFil e Formado Técnico em Informática pelo Instituto Federal de Astorga.</p>
             </div>
             <div class="bnt">
-                <a href="http://github.com/AlcidesSN" class="cta-button">GitHub</a>
+                <a href="http://github.com/AlcidesSN" target="_blank" class="cta-button">GitHub</a>
             </div>
 
         </div>
@@ -49,7 +49,7 @@
                 <p>Aluno do segundo ano de Ciências da Computação da UniFIl Formado no ensino médio no colégio Olimpus.</p>
             </div>
             <div class="bnt">
-                <a href="https://github.com/genji22525" class="cta-button">GitHub</a>
+                <a href="https://github.com/genji22525" target="_blank" class="cta-button">GitHub</a>
             </div>
 
         </div>
@@ -64,7 +64,7 @@
                 <p>Aluno do Segundo ano de Ciências da Computação da UniFil e Formado Técnico em Administração pelo Instituto Educação Estadual de Londrina.</p>
             </div>
             <div class="bnt">
-                <a href="https://github.com/giovannavitoriano" class="cta-button">GitHub</a>
+                <a href="https://github.com/giovannavitoriano" target="_blank" class="cta-button">GitHub</a>
             </div>
 
         </div>
@@ -79,7 +79,7 @@
                 <p>Aluno do Segundo ano de Engenharia de Software da UniFil e formado no ensino médio no colégio PGD.</p>
             </div>
             <div class="bnt">
-                <a href="https://github.com/victortramontine" class="cta-button">GitHub</a>
+                <a href="https://github.com/victortramontine" target="_blank" class="cta-button">GitHub</a>
             </div>
 
         </div>
@@ -94,7 +94,7 @@
                 <p>AlAluno do segundo ano de ciência da computação unifil e Formando especializado em back-end e Formando do Colégio Nossa Senhora Das Neves.</p>
             </div>
             <div class="bnt">
-                <a href="https://github.com/RYHBTG" class="cta-button">GitHub</a>
+                <a href="https://github.com/RYHBTG" target="_blank" class="cta-button">GitHub</a>
             </div>
 
         </div>
