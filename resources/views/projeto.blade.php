@@ -20,12 +20,74 @@
                 </ul>
             </nav>
         </header>
-        <div>
-            <h1></h1>
+        <div class="ascartas">
+            <!--cards-->
+            <div class="card">
+                <img src="https://publicdomainvectors.org/photos/icon-pdf.png" alt="Imagem do card">
+                <div class="card-content">
+                    <h2>Documento Visão</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure sapiente odio reiciendis libero reprehenderit. </p>
+                    <a href="/login">Download</a>
+                </div>
+            </div>
+             <!--cards-->
+             <div class="card">
+                <img src="https://publicdomainvectors.org/photos/icon-pdf.png" alt="Imagem do card">
+                <div class="card-content">
+                    <h2>Diagrama de Classe</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure sapiente odio reiciendis libero reprehenderit. </p>
+                    <a href="/login">Download</a>
+                </div>
+            </div>
+             <!--cards-->
+             <div class="card">
+                <img src="https://publicdomainvectors.org/photos/icon-pdf.png" alt="Imagem do card">
+                <div class="card-content">
+                    <h2>Diagrama de caso de uso</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure sapiente odio reiciendis libero reprehenderit. </p>
+                    <a href="/login">Download</a>
+                </div>
+            </div>
+             <!--cards-->
+             <div class="card">
+                <img src="https://publicdomainvectors.org/photos/icon-pdf.png" alt="Imagem do card">
+                <div class="card-content">
+                    <h2>Diagrama de sequência</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure sapiente odio reiciendis libero reprehenderit. </p>
+                    <a href="/login">Download</a>
+                </div>
+            </div>
+             <!--cards-->
+             <div class="card">
+                <img src="https://publicdomainvectors.org/photos/icon-pdf.png" alt="Imagem do card">
+                <div class="card-content">
+                    <h2>MVP</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure sapiente odio reiciendis libero reprehenderit. </p>
+                    <a href="/login">Download</a>
+                </div>
+            </div>
+             <!--cards-->
+             <div class="card">
+                <img src="https://publicdomainvectors.org/photos/icon-pdf.png" alt="Imagem do card">
+                <div class="card-content">
+                    <h2>DER</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure sapiente odio reiciendis libero reprehenderit. </p>
+                    <a href="/login">Download</a>
+                </div>
+            </div>
+             <!--cards-->
+             <div class="card">
+                <img src="https://publicdomainvectors.org/photos/icon-pdf.png" alt="Imagem do card">
+                <div class="card-content">
+                    <h2>Worflow</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure sapiente odio reiciendis libero reprehenderit. </p>
+                    <a href="/login">Download</a>
+                </div>
+            </div>  
         </div>
         <footer>
             <p>&copy; 2024 Dice Forge</p>
         </footer>
-
+        <script src="/js/projeto.js"></script>
     </body>
 </html>
