@@ -8,11 +8,40 @@ body {
     align-items: center;
     text-align: center;
 }
+header{
+    /*background-color: #52e552;*/
+    height: 80px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+header img{
+    height: 80%;
+}
+header ul{
+    list-style: none;
+    color: #fff;
+}
+header ul li{
+    display: table-cell;
+    padding-right: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+header ul li a:hover {
+    text-decoration: none;
+    color: #ff6600;
+}
+  
 
 .container {
     padding-top: 20%;
     padding-bottom: 20%;
-    position: relative;
 }
 
 .title {
@@ -113,4 +142,82 @@ body {
 
 h2 {
     margin-top: 0;
+}
+
+/*    diagramas     */
+
+.diagram {
+    background-color: #111;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.diagram img {
+    width: 300px;
+    height: 250px;
+}
+
+.diagram h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.diagram p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/*  MVP  */
+
+.mvp {
+    background-color: #111;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.mvp img {
+    width: 300px;
+    height: 500px;
+}
+
+.mvp h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.mvp p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/*     PDFs     */
+
+.pdf {
+    background-color: #111;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.pdf img {
+    width: 300px;
+    height: 300px;
+}
+
+.pdf h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.pdf p {
+    font-size: 14px;
+    margin-bottom: 20px;
 }

@@ -10,14 +10,26 @@
     <title>Projeto DiceForge</title>
 </head>
 <body>
+<header>
+    <a href="#">
+        <img src="/img/logo-unifil.png" alt="">
+    </a> 
+        <ul>
+            <li><a href="#Informações">Informações</a></li>
+            <li><a href="#Projetos">Projeto</a></li>
+            <li><a href="#Sobre">Sobre</a></li>
+        </ul>  
+</header>
   <div class="tata">
     <div class="container">
         <h1 class="title">DiceForge</h1>
         <div class="author">seja bem vindo</div>
         <a href="https://github.com/AlcidesSN/IonicAppExten" class="github-btn">GitHub do Projeto</a>
     </div>
-    <section class="project-title">
-        <h1>Projeto de Extensão UniFil<br>DiceForge</h1>
+    <section id="Informações" class="project-title">
+        <h1>Projeto de Extensão UniFil
+            <br>
+        DiceForge</h1>
     </section>
     <section class="project-description">
         <div class="description-column-left">
@@ -50,11 +62,89 @@
             </div>
         </div>
     </section>
+    <section Class="sobre-nos">
+        <h1 id="Projetos">Diagramas</h1>
+    <div class="team-container">
+        <div class="diagram">
+            <a href="/img/Diagramas/DiagramCDUFinal.png" target="_black"><img src="/img/Diagramas/DiagramCDUFinal.png" alt="Diagrama de Caso de Uso"></a>
+            <h2>Diagrama de Caso de Uso</h2>
+        </div>
+        <div class="diagram">
+            <a href="/img/Diagramas/classes.jpg" target="_black" ><img src="/img/Diagramas/classes.jpg" alt="Diagrama de Classes"></a>
+            <h2>Diagrama de Classes</h2>
+        </div>
+        <div class="diagram">
+            <a href="/img/Diagramas/DiagSeqAtributos.png" target="_black"><img src="/img/Diagramas/DiagSeqAtributos.png" alt="Diagrama de Sequencia: Atributos"></a>
+            <h2>Diagrama de Sequencia: Atributos</h2>
+        </div>
+        <div class="diagram">
+            <a href="/img/Diagramas/DiagSeqHabilidade.png" target="_black"><img src="/img/Diagramas/DiagSeqHabilidade.png" alt="Diagrama de Sequencia: Habilidade"></a>
+            <h2>Diagrama de Sequencia: Habilidade</h2>
+        </div>
+        <div class="diagram">
+            <a href="/img/Diagramas/DiagSeqMagias.png" target="_black"><img src="/img/Diagramas/DiagSeqMagias.png" alt="Diagrama de Sequencia: Magias"></a>
+            <h2>Diagrama de Sequencia: Magias</h2>
+        </div>
+        <div class="diagram">
+            <a href="img/Diagramas/RolarDados.jpg" target="_black"><img src="img/Diagramas/RolarDados.jpg" alt="Diagrama de Sequencia: Rodar Dados"></a>
+            <h2>DiDiagrama de Sequencia: Rodar Dados</h2>
+        </div>
+        <div class="diagram">
+            <a href="/img/Diagramas/GerenciarEquipamentos.jpg" target="_black"><img src="/img/Diagramas/GerenciarEquipamentos.jpg" alt="Diagrama de Sequencia: Equipamentos"></a>
+            <h2>Diagrama de Sequencia: Equipamentos</h2>
+        </div>
+        <div class="diagram">
+            <a href="img/Diagramas/Conceitual_Extenção.png" target="_black"><img src="img/Diagramas/Conceitual_Extenção.png" alt="Diagrama de DEER: Conceitual"></a>
+            <h2>Diagrama de DEER: Conceitual</h2>
+        </div>
+        <div class="diagram">
+            <a href="img/Diagramas/Lógico_extenção.png" target="_black"><img src="img/Diagramas/Lógico_extenção.png" alt="Diagrama de DEER: Lógico"></a>
+            <h2>Diagrama de DEER: Lógico</h2>
+        </div>
+        <div class="diagram">
+            <a href="img/Diagramas/Untitled.jpg" target="_black"><img src="img/Diagramas/Untitled.jpg" alt="WorkFlow"></a>
+            <h2>WorkFlow</h2>
+        </div>
+    </section>
     <section class="sobre-nos">
-        <h1>Sobre Nós</h1>
+    <h1>MVP</h1>
+    <div class="team-container">
+        <div class="mvp">
+            <a href="img/Diagramas/Tela_1.jpeg" target="_black"><img src="img/Diagramas/Tela_1.jpeg" alt="Tela 1"></a>
+            <h2>Tela 1</h2>
+        </div>
+        <div class="mvp">
+            <a href="img/Diagramas/Tela_2.jpeg" target="_black"><img src="img/Diagramas/Tela_2.jpeg" alt="Tela 2"></a>
+            <h2>Tela 2</h2>
+        </div>
+        <div class="mvp">
+            <a href="img/Diagramas/Tela_3.jpeg" target="_black"><img src="img/Diagramas/Tela_3.jpeg" alt="Tela 3"></a>
+            <h2>Tela 3</h2>
+        </div>
+        <div class="mvp">
+            <a href="img/Diagramas/Tela_4.jpeg" target="_black"><img src="img/Diagramas/Tela_4.jpeg" alt="Tela 4"></a>
+            <h2>Tela 4</h2>
+        </div>
+    </div>
+    </section>
+    <section class="sobre-nos">
+    <h1>Documentos</h1>
+    <div class="team-container">
+        <div class="pdf">
+            <a href="img/Diagramas/DiceForge_canvas.pdf" target="_black"><img src="img/Diagramas/pdf.png" alt="DiceForge Canvas"></a>
+            <h2>Canvas</h2>
+        </div>
+        <div class="pdf">
+            <a href="img/Diagramas/Documento_De_Projeto_Visão.pdf" target="_black"><img src="img/Diagramas/pdf.png" alt="Visão"></a>
+            <h2>Visão</h2>
+        </div>
+    </div>
+    </section>
+    <section class="sobre-nos">
+        <h1 id="Sobre">Sobre Nós</h1>
         <div class="team-container">
             <div class="team-member">
-                <img src="/img/alcides.jpg"" alt="Alcides Sandoli Neto">
+                <img src="/img/alcides.jpg" alt="Alcides Sandoli Neto">
                 <h2>Alcides Sandoli Neto</h2>
                 <p>Aluno do Segundo ano de Ciências da Computação da UniFil e Formado Técnico em Informática pelo Instituto Federal de Astorga.</p>
                 <a href="http://github.com/AlcidesSN" class="github-btn">GitHub</a>
