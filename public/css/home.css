@@ -1,15 +1,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #000000; /* Fundo preto */
+    background-color: #000000;
     color: #D3C0FF;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-header{
-    /*background-color: #52e552;*/
+header {
     height: 80px;
     position: absolute;
     width: 100%;
@@ -18,30 +17,33 @@ header{
     justify-content: space-between;
     margin-bottom: 10px;
 }
-header img{
+header img {
     height: 80%;
 }
-header ul{
+header ul {
     list-style: none;
     color: #fff;
+    padding: 0;
 }
-header ul li{
+header ul li {
     display: table-cell;
     padding-right: 20px;
 }
-header ul li a{
+header ul li a {
     text-decoration: none;
     color: #fff;
 }
 header ul li a:hover {
-    text-decoration: none;
     color: #ff6600;
 }
   
-
 .container {
-    padding-top: 20%;
+    padding-top: 15%;
     padding-bottom: 20%;
+}
+
+.brark-header{
+    flex-direction: row;
 }
 
 .title {
@@ -57,6 +59,7 @@ header ul li a:hover {
     color: #FFFFFF;
     letter-spacing: 2px;
 }
+
 .sobre-nos {
     padding: 50px 0;
     text-align: center;
@@ -112,6 +115,7 @@ header ul li a:hover {
 .github-btn:hover {
     background-color: #00cc00;
 }
+
 .project-title {
     text-align: center;
     margin: 20px 0;
@@ -132,20 +136,19 @@ header ul li a:hover {
 }
 
 .description-box {
-    background-color: #333; /* Fundo das caixas de texto cinza escuro */
+    background-color: #333;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    color: white; /* Texto branco nas caixas de texto */
+    color: white;
 }
 
 h2 {
     margin-top: 0;
 }
 
-/*    diagramas     */
-
+/* Diagramas */
 .diagram {
     background-color: #111;
     margin: 5px;
@@ -170,8 +173,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-/*  MVP  */
-
+/* MVP */
 .mvp {
     background-color: #111;
     margin: 5px;
@@ -196,8 +198,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-/*     PDFs     */
-
+/* PDFs */
 .pdf {
     background-color: #111;
     margin: 5px;
@@ -220,4 +221,64 @@ h2 {
 .pdf p {
     font-size: 14px;
     margin-bottom: 20px;
+}
+
+/* MEDIA QUERIES PARA RESPONSIVIDADE */
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 48px;
+    }
+
+    .author {
+        font-size: 18px;
+    }
+
+    .team-container, .project-description {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description-column-left,
+    .description-column-right,
+    .diagram, .mvp, .pdf {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .diagram img, .mvp img, .pdf img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding-top: 80%;
+        padding-bottom: 100%;
+    }
+    .title {
+        font-size: 36px;
+    }
+
+    .author {
+        font-size: 16px;
+    }
+
+    .description-box {
+        padding: 10px;
+    }
+
+    .team-member img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .team-member h2 {
+        font-size: 18px;
+    }
+
+    .github-btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
 }

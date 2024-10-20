@@ -13,18 +13,14 @@
 <header>
     <a href="#">
         <img src="/img/logo-unifil.png" alt="">
-    </a> 
-        <ul>
-            <li><a href="#Informações">Informações</a></li>
-            <li><a href="#Projetos">Projeto</a></li>
-            <li><a href="#Sobre">Sobre</a></li>
-        </ul>  
+    </a>
 </header>
   <div class="tata">
     <div class="container">
         <h1 class="title">DiceForge</h1>
         <div class="author">seja bem vindo</div>
         <a href="https://github.com/AlcidesSN/IonicAppExten" class="github-btn">GitHub do Projeto</a>
+        <a id="btnRegistrar" href="/downloads/app-debug.apk" class="github-btn">Baixar APK</a>
     </div>
     <section id="Informações" class="project-title">
         <h1>Projeto de Extensão UniFil
@@ -180,4 +176,5 @@
 </div>
 </div>
 </body>
+<script src="/js/projeto.js"></script>
 </html>
